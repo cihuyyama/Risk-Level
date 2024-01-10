@@ -5,10 +5,11 @@ import com.google.gson.annotations.SerializedName
 data class Kontak (
     val id: Int,
     val nama: String,
-    val notelp: String,
+    val no_telp: String,
     val email: String
 
 )
+
 
 data class KontakList (
     @SerializedName("data")
