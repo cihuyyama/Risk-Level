@@ -1,4 +1,4 @@
-package com.example.risklevel
+package com.example.risklevel.ui
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding

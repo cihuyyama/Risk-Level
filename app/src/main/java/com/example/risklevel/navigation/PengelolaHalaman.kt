@@ -10,6 +10,7 @@ import com.example.consumerestapi.navigation.DestinasiNavigasi
 import com.example.risklevel.data.ApiService
 import com.example.risklevel.ui.auth.DestinasiLogin
 import com.example.risklevel.ui.auth.LoginScreen
+import com.example.risklevel.ui.main.DestinasiHome
 import com.example.risklevel.utils.SessionManager
 
 @Composable
@@ -21,7 +22,14 @@ startDestination = DestinasiLogin.route,
 ) {
 composable(DestinasiLogin.route) {
     LoginScreen(
+        navigateHome = {
+            navController.navigate(
+            )
+        }
     )
 }
+    composable(DestinasiHome.route){
+        HomeS
+    }
 }
 }
